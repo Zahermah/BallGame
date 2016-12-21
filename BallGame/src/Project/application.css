@@ -1,0 +1,33 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root{
+	-fx-background-color: #333333;
+}
+
+.button{
+    -fx-text-fill: #006464;
+    -fx-background-color: #DFB951;
+    -fx-border-radius: 20.0;
+    -fx-background-radius: 20.0;
+    -fx-padding: 5.0;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+#ballgame {
+   -fx-font-size: 32.0px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(255.0,255.0,255.0,0.7) , 6.0, 0.0 , 0.0 , 2.0 );
+}
+
+#creator{
+	-fx-font-size: 15.0px;
+	-fx-text-fill: #3CB371;
+	-fx-effect: dropshadow( gaussian , rgba(255.0,255.0,255.0,0.5) , 0.0,0.0,0.0,1.0 );
+}
+
+
+
